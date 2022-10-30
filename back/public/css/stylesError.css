@@ -6,6 +6,8 @@ h1 {
 
 
 img {
-    width: 30vw;
-    margin-bottom: 15px;
+    /* width: 30vw;
+    margin-bottom: 15px; */
+    background-size: cover;
+  background-attachment: fixed;
 }
