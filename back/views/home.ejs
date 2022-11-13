@@ -7,12 +7,15 @@
 <!--Header-->
     <%- include ('./partials/header.ejs')%>
 <main>
-    <section class="banner">
-            <img src="/images/banner.jpg">
-    </section><br>
-        
+    <section class="banner" id="banner">
+        <div class="btn-pause" id="btnPause">
+            <i class="icon-pause"></i>
+        </div>
+            <video loop muted autoplay preload="auto" id="video" src="/images/video.mp4">
+    </section>
+
     <section class="productos">
-        <h2>NUESTROS CAFÉS</h2>
+        <h2>NUESTROS CAFÉS DE ESPECIALIDAD</h2>
         
         <div id="caja-producto">
             <% for(let producto of products){ %>
@@ -68,5 +71,7 @@
 </main>
 <!--Footer-->
 <%- include ('./partials/footer.ejs')%>
+<script src="../object-fit-videos.js"></script>
+<script src="../banner.js"></script>
 </body>
 </html>

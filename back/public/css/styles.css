@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: hsl(40,15%,31.4%);
+    background-color:  #3c200c ;
     /* background-color: rgba(94, 83, 64, 0.95); */
     display: flex;
     justify-content: space-around;
@@ -143,7 +143,7 @@ main section{
     width: 100vw;
     text-align: center;
     align-content: center;
-    background-color: #FFF;
+    background-color: #ceac7c ;
     font-size: 15px;
 }
 main section.banner img {
@@ -153,6 +153,9 @@ main section.banner img {
 
 h2{
     text-align: center;
+    color:  #3c200c ;
+    padding-top: 50px;
+
 }
 
  div img {
@@ -228,7 +231,7 @@ section.como-comprar p.numero-paso {
     
 /*FOOTER*/
 footer {
-    background-color: rgba(94, 83, 64, 0.95);
+    background-color:  #3c200c ;
     color:white;
     text-align: center;
     
