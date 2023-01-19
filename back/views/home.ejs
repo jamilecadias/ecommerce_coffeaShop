@@ -1,6 +1,11 @@
 <!-- HOME -->
 <!DOCTYPE html>
 <html lang="en">
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+
 <%- include ('./partials/head.ejs')%>
 
 <body>
@@ -32,12 +37,37 @@
             <% } %>
         </div>
     </section>
-         
-    <section class="opinion">
+    
+         <!-- SLIDES -->
+    <span>LO QUE DICEN NUESTROS CLIENTES</span>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="/images/1.jpg" alt="Foto 01">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="/images/2.jpg" alt="Foto 02">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="/images/3.jpg" alt="Foto 03">
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+   <!--  <section class="opinion">
             <h2>LO QUE DICEN NUESTROS CLIENTES</h2>
             <p>"Destaco el sistema de venta online y posterior delivey,hace un año soy cliente y la calidad y entrega son perfectas"</p>
             <p>Juan Pablo / La Plata, Argentina</p>
-    </section>
+    </section> -->
 
 
     <section class="como-comprar">
@@ -73,5 +103,8 @@
 <%- include ('./partials/footer.ejs')%>
 <script src="../object-fit-videos.js"></script>
 <script src="../banner.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  
 </body>
 </html>
