@@ -47,9 +47,9 @@ a.boton{
  div.comprar a{
      text-decoration: none;
      color:white;
-     border: solid #728f63 5px;
+     border: solid#a5570a;
      border-radius: 5px;
-     background-color: #728f63;
+     background-color: #a5570a;
  }
 
  section.productos {

@@ -21,7 +21,7 @@ main{
 .precio{
     font-size: 24px;
     font-weight: 600;
-    color:#728f63;
+    color:#a5570a;
 }
 .descripcion{
     /* margin: auto; */
@@ -63,7 +63,7 @@ select{
     font-weight: 400;
 }
 button{
-    background: #728f63 ;
+    background: #a5570a;
     border:0; 
     font-size: 15px;
     margin: 15px ;
