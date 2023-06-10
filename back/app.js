@@ -37,9 +37,17 @@ app.use('/products' , productsRouter);
 app.use('/users' , usersRouter);
 app.use('/api', apiRouter);
 
+app.post('/products/search', (req, res) => {
+    const searchTerm = req.body.search;
+    // Lógica para lidar com a pesquisa usando o valor searchTerm
+    const results = products.filter(product => product.name.includes(searchTerm));
+  res.render('searchResults', { results });
+  });
+
 // Error
 app.use((req,res,next)=>{
     res.status(404).render('error')
 })
+
  // Servidor
 app.listen (3000, (req, res)=> console.log ('Servidor 3000 funcionando'));
