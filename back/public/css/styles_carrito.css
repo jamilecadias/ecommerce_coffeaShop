@@ -43,8 +43,8 @@ div.actualizar {
 }
 
 a.actualizar-carrito {
-    border: solid #728f63 1px;
-    background-color: #728f63;
+    border: solid #a5570a 1px;
+    background-color: #a5570a;
     text-decoration: none;
     color: white;
     border-radius: 5px;
@@ -52,9 +52,9 @@ a.actualizar-carrito {
     }
 
 .actualizar a:hover {
-    background: #a7c697;
+    background: #ceac7c;
     text-shadow: none;
-    border: solid #a7c697 1px;
+    border: solid #ceac7c 1px;
 }
 
 .img-producto1 , .img-producto2 {
@@ -115,8 +115,8 @@ section.total div.finalizar {
    }
 
  a.finalizar-compra {
-     border: solid #728f63 1px;
-     background-color: #728f63;
+     border: solid #ceac7c 1px;
+     background-color: #ceac7c;
      text-decoration: none;
      color: white; 
      border-radius: 5px;
@@ -124,9 +124,9 @@ section.total div.finalizar {
  }
 
  div.finalizar a:hover {
-    background: #a7c697;
+    background: #ceac7c;
     text-shadow: none;
-    border: solid #a7c697 1px;
+    border: solid #ceac7c 1px;
 }
 
 
@@ -178,8 +178,8 @@ section.total {
        }
     
      .finalizar a {
-         border: solid #728f63 1px;
-         background-color: #728f63;
+         border: solid #a5570a 1px;
+         background-color: #a5570a;
          text-decoration: none;
          color: white;
      }

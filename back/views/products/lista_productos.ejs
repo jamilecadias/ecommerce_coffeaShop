@@ -10,17 +10,20 @@
         <section class="productos">
             <h1>NUESTROS CAFÉS</h1>
     
-            <% for(let producto of products){ %>
+            <div id="caja-producto">
+                <% for(let producto of products){ %>
+            <div id="producto">
                 <div class="imagen-cafe">
-                    <a href="/products/detail/<%= producto.id %>"><img src="/images/<%= producto.image %>"></a>
+                    <a href="/products/detail/<%= producto.id %>"><img class="imgProduct" src="/images/<%= producto.image %>"></a>
                 </div>
                 <div class="datos-producto">
                     <a href="#" class="descrpcion-juan-valdez"><%= producto.name %></a>
                     <p class="precio">$ <%= producto.price  %></p>
                     <a href="/products/detail/<%= producto.id %>" class="boton">Ver más</a>
-                    
                 </div>
+            </div>
                 <% } %>
+            </div>
 
                 <br>
             

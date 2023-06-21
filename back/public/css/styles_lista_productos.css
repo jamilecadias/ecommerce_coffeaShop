@@ -28,9 +28,9 @@ h1{
 }
 
 .boton {
-    border: solid #728f63 5px;
+    border: solid #a5570a 5px;
     border-radius: 5px;
-    background-color: #728f63;
+    background-color: #a5570a;
 }
 a.boton{
     color: white;
@@ -38,7 +38,7 @@ a.boton{
 
 
 .icono {
-    color: #728f63;
+    color: #a5570a;
     font-size: 30px;
     margin-top: 30px;
 }

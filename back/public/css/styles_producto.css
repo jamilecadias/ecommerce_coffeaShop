@@ -9,6 +9,22 @@ main{
     margin: auto;
 }
 
+#caja-producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+#producto{
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;    
+}
+#producto:hover{
+    text-shadow: none;
+    border: solid #ffffff 1px;
+}
+
 #imagenproducto{
     width: 100%;
 }

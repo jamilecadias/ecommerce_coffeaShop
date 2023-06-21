@@ -1,3 +1,37 @@
+Marrón café
+HEX : #a5570a
+RGB : 165, 87, 10
+HSL  : 29, 88%, 34%
+
+Bronce
+HEX : #a5570a
+RGB : 165, 87, 10
+HSL  : 29, 88%, 34%
+
+Chocolate
+HEX : #6c3c27
+RGB : 108, 60, 39
+HSL  : 18, 46%, 28%
+
+Blanco
+HEX : #ffffff
+RGB : 255, 255, 255
+HSL  : 360, 0%, 100%
+
+Latte
+HEX : #ceac7c
+RGB : 206, 172, 124
+HSL  : 35, 45%, 64%
+
+Marrón oscuro
+HEX : #3c200c
+RGB : 60, 32, 12
+HSL  : 25, 66%, 14%
+
+
+COlORES ANTERIORES
+
+
 Colores logo
 marron:
 HEX : #5e5340

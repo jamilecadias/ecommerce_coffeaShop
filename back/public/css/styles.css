@@ -188,6 +188,12 @@ h2{
     line-height: 30px;
 }
 
+.datos-producto a:hover {
+    background: #ceac7c;
+    text-shadow: none;
+    border: solid #ceac7c 1px;
+}
+
 .boton {
     border: solid #a5570a 5px;
     border-radius: 5px;
