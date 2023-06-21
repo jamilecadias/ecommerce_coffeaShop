@@ -161,7 +161,7 @@ main section{
     width: 100vw;
     text-align: center;
     align-content: center;
-    background-color: #ceac7c ;
+    /* background-color: #ceac7c ; */
     font-size: 15px;
 }
 main section.banner .imgProduct {
