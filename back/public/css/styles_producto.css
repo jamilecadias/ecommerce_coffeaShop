@@ -8,9 +8,7 @@ main{
     width: 90%;
     margin: auto;
 }
-/* #logo{
-    width: 23%;
-} */
+
 #imagenproducto{
     width: 100%;
 }
@@ -142,25 +140,13 @@ section{
     margin: 10px;
 }
 @media (min-width: 480px){
-/* header{
-    display: flex;
-    flex-wrap: wrap;
 
-}
-#logo{
-width: 20%;
-} */
 .form{
     flex-grow: 0.8;
 }
 }
 @media (min-width: 769px){
-/* header{
-    justify-content:flex-start;
-}
-#logo{
-    width: 10vw;
-} */
+
 main{
     display: flex;
     flex-wrap: wrap;

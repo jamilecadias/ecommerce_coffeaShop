@@ -1,22 +1,19 @@
 <header>
     <div id="logo">
-        <img  src="/images/Coffealogo.png" alt="Logo Coffea Shop">
+        <img class="imgLogo" src="/images/Coffealogo.png" alt="Logo Coffea Shop">
     </div>
     <div class="nombre">
         <p id="coffea">Coffea</p>
         <p id="shop">SHOP</p>
     </div>
-    <form class="form" action="/products/search" method="POST">
-        <div class="input">
-            <input name= "search" type="text" placeholder= "Buscar...">
-        </div>
-        <div class="submit">
-            <button type="submit" class="boton"><i class="fa fa-search"></i></button>
-            
-            
-        </div>
-    </form>
-    </div>
+    <div class="search-container">
+        <form class="form" action="/products/search" method="POST">
+          <div class="input">
+            <input name="search" type="text" placeholder="Buscar...">
+            <button type="submit" class="boton search-button"><i class="fa fa-search"></i></button>
+          </div>
+        </form>
+      </div>
     <div class="inicio">            
             <a href="/">INICIO </a>
             <a href="/products">PRODUCTOS </a>

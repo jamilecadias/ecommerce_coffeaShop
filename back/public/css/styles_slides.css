@@ -1,0 +1,65 @@
+/* Estilos para os slides */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide .imgSlides {
+    width: 100vw;
+    height: auto;
+  }
+
+  .imgSlides{
+     width: 100%;
+    height: auto;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #ceac7c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: #a5570a;
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ceac7c;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }

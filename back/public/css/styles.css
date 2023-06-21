@@ -14,7 +14,7 @@ header{
     align-items: center;
     width: 100vw;
 }
-#logo{
+#logo .imgLogo{
     width: 7rem;
     text-align: center;
 }
@@ -34,28 +34,46 @@ header{
 }
 header .form{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     text-align: center;    
 }
-header .form .input{
+
+header .form .search-container {
     display: flex;
-    background-color: #FFF;  
-    width: 100%;  
+    align-items: center;
+  }
+  
+  header .form .input {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
     outline: none;
     color: #666;
     padding: 2px;
     margin-top: 10px;
     border-radius: 5px;
-    align-self: center;
-    display: none;
-}
-header .form .submit {
-    display: flex;
-    color: white;    
-    font-size: 1.5rem;
-    margin: 10px;
-    align-self: stretch;    
-}
+  }
+  
+  header .form .input input {
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  header .form .input .boton {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  header .form .input .search-button {
+    background-color: #ceac7c;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+
 .inicio{
     display: flex;
     flex-direction: row;        
@@ -146,7 +164,7 @@ main section{
     background-color: #ceac7c ;
     font-size: 15px;
 }
-main section.banner img {
+main section.banner .imgProduct {
     width: 100vw;    
 }
 
@@ -158,7 +176,7 @@ h2{
 
 }
 
- div img {
+ div .imgProduct {
      width: 100%;
      padding: 20px;
      max-width: 380px;
@@ -177,20 +195,6 @@ h2{
 }
 a.boton{
     color: white;
-}
-
-section.opinion {
-    background-color: #F5ECCE;
-    padding: 40px;
-    width: 100vw;
-}
-
-section.opinion h2{
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-section.opinion p {
-    font-style: italic;
 }
 section.como-comprar {
     background-color: #6c3c27;
