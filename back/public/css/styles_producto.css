@@ -76,7 +76,7 @@ select{
     margin: 10px;
     font-weight: 400;
 }
-button{
+.button{
     background: #a5570a;
     border:0; 
     font-size: 15px;

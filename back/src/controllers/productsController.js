@@ -79,7 +79,7 @@ const productsController = {
 
 		const id = req.params.id;
 		const validation = validationResult(req);
-		const { name, price, description } = req.body;
+		const { name, price, description, image } = req.body;
 
 		console.log(validation.errors);
 		if(validation.errors.length > 0) {
@@ -89,7 +89,8 @@ const productsController = {
 				{
 					name,
 					price,
-					description
+					description,
+					image
 				},
 				{
 					where: {id}
