@@ -1,0 +1,88 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*MAIN*/
+main section{
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+}
+main section.banner .imgProduct {
+    width: 100vw;    
+}
+
+
+h1{
+    text-align: center;
+    color:  #3c200c ;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+ div .imgProduct {
+     width: 100%;
+     padding: 20px;
+     max-width: 380px;
+ }
+
+.datos-producto a {
+    text-decoration: none;
+    color: #6c3c27;
+    line-height: 30px;
+}
+
+.datos-producto a:hover {
+    background: #ceac7c;
+    text-shadow: none;
+    border: solid #ceac7c 1px;
+}
+
+.boton {
+    border: solid #a5570a 5px;
+    border-radius: 5px;
+    background-color: #a5570a;
+}
+a.boton{
+    color: white;
+}
+section.como-comprar {
+    background-color: #6c3c27;
+    line-height: 30px;
+    width: 100vw;  
+    padding: 40px;
+}
+
+section.como-comprar a , section.como-comprar p, section.como-comprar h2, section.como-comprar h3 {
+    color: white;
+}
+
+.icono {
+    color: #a5570a;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+section.como-comprar p.numero-paso {
+    color: #a5570a
+}
+ div.comprar a{
+     text-decoration: none;
+     color:white;
+     border: solid #a5570a 5px;
+     border-radius: 5px;
+     background-color: #a5570a;
+ }
+
+ div.pasos {
+    padding-inline: 30px;
+ }
+ 
+ div.steps-container {
+    display: flex;
+ }
+
+ 

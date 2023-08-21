@@ -82,7 +82,7 @@ span.error {
 }
 
 .create-form .boton {
-    background: #728f63 ;
+    background-color: #a5570a; ;
     border:0; 
     font-size: 15px;
     margin: 15px ;
@@ -93,7 +93,7 @@ span.error {
 }
 
 .boton:hover {
-    background: #a7c697;
+    background: #ceac7c;
     box-shadow: inset2px 2px 2px rgba(0,0,0.2);
     text-shadow: none;  
 }
@@ -123,28 +123,3 @@ div.text-danger {
     color: red; 
 }
  
-/*Footer del formulario de registro de la página*/
-
-footer {
-    background-color: rgba(94, 83, 64, 0.95);
-    color:white;
-    text-align: center; 
-}
-
-.direccion {
-    font-size: 18px;
-    width: 70vw;
-    margin: auto;
-    padding: 15px;  
-}
-    footer a {
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-}
-
-div.enlaces_footer {
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-}
